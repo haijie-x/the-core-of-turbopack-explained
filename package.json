@@ -1,0 +1,16 @@
+{
+  "name": "the-core-of-turbopack-explained",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "acorn": "^8.10.0"
+  }
+}
