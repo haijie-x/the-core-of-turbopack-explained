@@ -1,5 +1,5 @@
 import { TupleMap } from "./tupleMap.js";
-
+import { printCentered } from "./util.js";
 const taskCache = new TupleMap();
 
 export let currentTask = null;
@@ -76,6 +76,6 @@ export const invalidate = (task) => {
       }
     }
   } else {
-    log.enable && console.log(">>>>>no change", task.name);
+    log.enable && printCentered(`🔥🔥 ${task.name} no change 🔥🔥`);
   }
 };

@@ -1,0 +1,14 @@
+import { foo as foo1 } from "./1.js";
+import { foo as foo2 } from "./2.js";
+import { foo as foo3 } from "./3.js";
+import { foo as foo4 } from "./4.js";
+import { foo as foo5 } from "./5.js";
+import { foo as foo6 } from "./6.js";
+import { foo as foo7 } from "./7.js";
+import { foo as foo8 } from "./8.js";
+import { foo as foo9 } from "./9.js";
+import { foo as foo10 } from "./10.js";
+import { foo as foo11 } from "./11.js";
+import { foo as foo12 } from "./12.js";
+import { foo as foo13 } from "./13.js";
+import { foo as foo14 } from "./14.js";

@@ -17,16 +17,16 @@ watch(process.cwd(), { recursive: true }, (eventType, filename) => {
     }, 100);
 });
 
-export const write = task("write", (output, content) => {
-  return writeFileSync(output, content, (err) => {
-    console.error(">>>>>>>write error", err);
-  });
-});
-
 export const read = task("read", (entry) => {
   const invalidator = getInvalidator();
   invalidatorCache.set(entry, invalidator);
   return readFileSync(entry, "utf8", (err) => {
     console.error(">>>>>>>read error", err);
+  });
+});
+
+export const write = task("write", (output, content) => {
+  return writeFileSync(output, content, (err) => {
+    console.error(">>>>>>>write error", err);
   });
 });
